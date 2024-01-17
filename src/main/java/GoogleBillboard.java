@@ -15,7 +15,7 @@ public class GoogleBillboard {
 	
 
 	//Finish this function
-	public static boolean isPrime(double d){
+	public static boolean isPrime(double dNum){
 		for (double i = 2; i <= Math.sqrt (dNum); i++){
 			if (dNum%i == 0){
 				return false; 
